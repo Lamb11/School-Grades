@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)btnAceptar:(id)sender;
+@property (strong, nonatomic) IBOutlet UITextField *txtNombre;
+@property (strong, nonatomic) IBOutlet UITextField *txtContrasena;
 
 @end
 
