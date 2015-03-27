@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface cellOaxaca : UITableViewCell
+@property (strong, nonatomic) IBOutlet UILabel *lblNombre;
 
 @end

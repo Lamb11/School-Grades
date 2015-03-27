@@ -35,6 +35,9 @@
 		D37660B51AB0EF950027CD0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D37660B41AB0EF950027CD0F /* CoreGraphics.framework */; };
 		D37660B71AB0EFAE0027CD0F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D37660B61AB0EFAE0027CD0F /* StoreKit.framework */; };
 		D37660B91AB0EFCE0027CD0F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D37660B81AB0EFCE0027CD0F /* CoreLocation.framework */; };
+		D37D9B431AB92DC800C6A400 /* Izq.png in Resources */ = {isa = PBXBuildFile; fileRef = D37D9B421AB92DC800C6A400 /* Izq.png */; };
+		D37D9B461AB9317200C6A400 /* Alumno.m in Sources */ = {isa = PBXBuildFile; fileRef = D37D9B451AB9317200C6A400 /* Alumno.m */; };
+		D3CE2E531AC133490039D221 /* Tarea.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CE2E521AC133490039D221 /* Tarea.m */; };
 		D3E285BE1AB0874400C254E7 /* cellOaxaca.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E285BD1AB0874400C254E7 /* cellOaxaca.m */; };
 		D3E285C01AB08BDD00C254E7 /* notas_512.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E285BF1AB08BDD00C254E7 /* notas_512.png */; };
 /* End PBXBuildFile section */
@@ -84,6 +87,11 @@
 		D37660B41AB0EF950027CD0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		D37660B61AB0EFAE0027CD0F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		D37660B81AB0EFCE0027CD0F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D37D9B421AB92DC800C6A400 /* Izq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Izq.png; sourceTree = "<group>"; };
+		D37D9B441AB9317200C6A400 /* Alumno.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alumno.h; sourceTree = "<group>"; };
+		D37D9B451AB9317200C6A400 /* Alumno.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alumno.m; sourceTree = "<group>"; };
+		D3CE2E511AC133490039D221 /* Tarea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tarea.h; sourceTree = "<group>"; };
+		D3CE2E521AC133490039D221 /* Tarea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tarea.m; sourceTree = "<group>"; };
 		D3E285BC1AB0874400C254E7 /* cellOaxaca.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellOaxaca.h; sourceTree = "<group>"; };
 		D3E285BD1AB0874400C254E7 /* cellOaxaca.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellOaxaca.m; sourceTree = "<group>"; };
 		D3E285BF1AB08BDD00C254E7 /* notas_512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notas_512.png; sourceTree = "<group>"; };
@@ -168,6 +176,10 @@
 				D3663FFD1AAFBFD100EE19EC /* AppDelegate.m */,
 				D3663FFF1AAFBFD100EE19EC /* ViewController.h */,
 				D36640001AAFBFD100EE19EC /* ViewController.m */,
+				D37D9B441AB9317200C6A400 /* Alumno.h */,
+				D37D9B451AB9317200C6A400 /* Alumno.m */,
+				D3CE2E511AC133490039D221 /* Tarea.h */,
+				D3CE2E521AC133490039D221 /* Tarea.m */,
 				D36640021AAFBFD100EE19EC /* Main.storyboard */,
 				D36640051AAFBFD100EE19EC /* Images.xcassets */,
 				D36640071AAFBFD100EE19EC /* LaunchScreen.xib */,
@@ -205,6 +217,7 @@
 		D36640211AAFD38400EE19EC /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				D37D9B421AB92DC800C6A400 /* Izq.png */,
 				D37660911AB0E9770027CD0F /* tareas-21627731.jpg */,
 				D3E285BF1AB08BDD00C254E7 /* notas_512.png */,
 				D36640221AAFD39A00EE19EC /* DSC06769.JPG */,
@@ -282,6 +295,7 @@
 				TargetAttributes = {
 					D3663FF41AAFBFD100EE19EC = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = QXF33N93KH;
 					};
 					D366400D1AAFBFD200EE19EC = {
 						CreatedOnToolsVersion = 6.2;
@@ -314,6 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3E285C01AB08BDD00C254E7 /* notas_512.png in Resources */,
+				D37D9B431AB92DC800C6A400 /* Izq.png in Resources */,
 				D36640041AAFBFD100EE19EC /* Main.storyboard in Resources */,
 				D36640231AAFD39A00EE19EC /* DSC06769.JPG in Resources */,
 				D36640091AAFBFD100EE19EC /* LaunchScreen.xib in Resources */,
@@ -340,6 +355,8 @@
 				D36640011AAFBFD100EE19EC /* ViewController.m in Sources */,
 				D3663FFE1AAFBFD100EE19EC /* AppDelegate.m in Sources */,
 				D3663FFB1AAFBFD100EE19EC /* main.m in Sources */,
+				D3CE2E531AC133490039D221 /* Tarea.m in Sources */,
+				D37D9B461AB9317200C6A400 /* Alumno.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,6 +480,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/FrameworksParse",
@@ -470,6 +489,7 @@
 				INFOPLIST_FILE = "School-Grades/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -477,6 +497,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/FrameworksParse",
@@ -484,6 +506,7 @@
 				INFOPLIST_FILE = "School-Grades/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

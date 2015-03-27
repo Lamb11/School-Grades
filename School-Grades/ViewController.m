@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 
+
 @interface ViewController ()
 
 @end
@@ -25,6 +26,6 @@
 }
 
 - (IBAction)btnAceptar:(id)sender {
-   
+    
 }
 @end

@@ -6,7 +6,10 @@
 //  Copyright (c) 2015 AlbertoCorderoArellanes. All rights reserved.
 //
 
+
 #import <UIKit/UIKit.h>
+#import <Parse/Parse.h>
+
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
@@ -14,4 +17,3 @@
 
 
 @end
-
