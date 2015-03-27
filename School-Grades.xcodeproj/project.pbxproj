@@ -37,6 +37,7 @@
 		D37660B91AB0EFCE0027CD0F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D37660B81AB0EFCE0027CD0F /* CoreLocation.framework */; };
 		D37D9B431AB92DC800C6A400 /* Izq.png in Resources */ = {isa = PBXBuildFile; fileRef = D37D9B421AB92DC800C6A400 /* Izq.png */; };
 		D37D9B461AB9317200C6A400 /* Alumno.m in Sources */ = {isa = PBXBuildFile; fileRef = D37D9B451AB9317200C6A400 /* Alumno.m */; };
+		D3CD6ECF1AC51DD4005A0809 /* Materia.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CD6ECE1AC51DD4005A0809 /* Materia.m */; };
 		D3CE2E531AC133490039D221 /* Tarea.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CE2E521AC133490039D221 /* Tarea.m */; };
 		D3E285BE1AB0874400C254E7 /* cellOaxaca.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E285BD1AB0874400C254E7 /* cellOaxaca.m */; };
 		D3E285C01AB08BDD00C254E7 /* notas_512.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E285BF1AB08BDD00C254E7 /* notas_512.png */; };
@@ -90,6 +91,8 @@
 		D37D9B421AB92DC800C6A400 /* Izq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Izq.png; sourceTree = "<group>"; };
 		D37D9B441AB9317200C6A400 /* Alumno.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alumno.h; sourceTree = "<group>"; };
 		D37D9B451AB9317200C6A400 /* Alumno.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alumno.m; sourceTree = "<group>"; };
+		D3CD6ECD1AC51DD4005A0809 /* Materia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Materia.h; sourceTree = "<group>"; };
+		D3CD6ECE1AC51DD4005A0809 /* Materia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Materia.m; sourceTree = "<group>"; };
 		D3CE2E511AC133490039D221 /* Tarea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tarea.h; sourceTree = "<group>"; };
 		D3CE2E521AC133490039D221 /* Tarea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tarea.m; sourceTree = "<group>"; };
 		D3E285BC1AB0874400C254E7 /* cellOaxaca.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellOaxaca.h; sourceTree = "<group>"; };
@@ -180,6 +183,8 @@
 				D37D9B451AB9317200C6A400 /* Alumno.m */,
 				D3CE2E511AC133490039D221 /* Tarea.h */,
 				D3CE2E521AC133490039D221 /* Tarea.m */,
+				D3CD6ECD1AC51DD4005A0809 /* Materia.h */,
+				D3CD6ECE1AC51DD4005A0809 /* Materia.m */,
 				D36640021AAFBFD100EE19EC /* Main.storyboard */,
 				D36640051AAFBFD100EE19EC /* Images.xcassets */,
 				D36640071AAFBFD100EE19EC /* LaunchScreen.xib */,
@@ -354,6 +359,7 @@
 				D3E285BE1AB0874400C254E7 /* cellOaxaca.m in Sources */,
 				D36640011AAFBFD100EE19EC /* ViewController.m in Sources */,
 				D3663FFE1AAFBFD100EE19EC /* AppDelegate.m in Sources */,
+				D3CD6ECF1AC51DD4005A0809 /* Materia.m in Sources */,
 				D3663FFB1AAFBFD100EE19EC /* main.m in Sources */,
 				D3CE2E531AC133490039D221 /* Tarea.m in Sources */,
 				D37D9B461AB9317200C6A400 /* Alumno.m in Sources */,
