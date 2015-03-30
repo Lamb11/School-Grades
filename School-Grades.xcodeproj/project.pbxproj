@@ -35,6 +35,7 @@
 		D37660B51AB0EF950027CD0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D37660B41AB0EF950027CD0F /* CoreGraphics.framework */; };
 		D37660B71AB0EFAE0027CD0F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D37660B61AB0EFAE0027CD0F /* StoreKit.framework */; };
 		D37660B91AB0EFCE0027CD0F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D37660B81AB0EFCE0027CD0F /* CoreLocation.framework */; };
+		D377F6921AC8CCC8003A1909 /* Cal.m in Sources */ = {isa = PBXBuildFile; fileRef = D377F6911AC8CCC8003A1909 /* Cal.m */; };
 		D37D9B431AB92DC800C6A400 /* Izq.png in Resources */ = {isa = PBXBuildFile; fileRef = D37D9B421AB92DC800C6A400 /* Izq.png */; };
 		D37D9B461AB9317200C6A400 /* Alumno.m in Sources */ = {isa = PBXBuildFile; fileRef = D37D9B451AB9317200C6A400 /* Alumno.m */; };
 		D3CD6ECF1AC51DD4005A0809 /* Materia.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CD6ECE1AC51DD4005A0809 /* Materia.m */; };
@@ -88,6 +89,8 @@
 		D37660B41AB0EF950027CD0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		D37660B61AB0EFAE0027CD0F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		D37660B81AB0EFCE0027CD0F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D377F6901AC8CCC8003A1909 /* Cal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cal.h; sourceTree = "<group>"; };
+		D377F6911AC8CCC8003A1909 /* Cal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cal.m; sourceTree = "<group>"; };
 		D37D9B421AB92DC800C6A400 /* Izq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Izq.png; sourceTree = "<group>"; };
 		D37D9B441AB9317200C6A400 /* Alumno.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alumno.h; sourceTree = "<group>"; };
 		D37D9B451AB9317200C6A400 /* Alumno.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alumno.m; sourceTree = "<group>"; };
@@ -185,6 +188,8 @@
 				D3CE2E521AC133490039D221 /* Tarea.m */,
 				D3CD6ECD1AC51DD4005A0809 /* Materia.h */,
 				D3CD6ECE1AC51DD4005A0809 /* Materia.m */,
+				D377F6901AC8CCC8003A1909 /* Cal.h */,
+				D377F6911AC8CCC8003A1909 /* Cal.m */,
 				D36640021AAFBFD100EE19EC /* Main.storyboard */,
 				D36640051AAFBFD100EE19EC /* Images.xcassets */,
 				D36640071AAFBFD100EE19EC /* LaunchScreen.xib */,
@@ -356,6 +361,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D377F6921AC8CCC8003A1909 /* Cal.m in Sources */,
 				D3E285BE1AB0874400C254E7 /* cellOaxaca.m in Sources */,
 				D36640011AAFBFD100EE19EC /* ViewController.m in Sources */,
 				D3663FFE1AAFBFD100EE19EC /* AppDelegate.m in Sources */,
