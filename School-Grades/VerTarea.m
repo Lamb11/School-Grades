@@ -23,7 +23,7 @@ int indice;
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [self performSelector:@selector(listartareaParse)];
+    [self performSelector:@selector(retrieveFromParse)];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -74,18 +74,11 @@ int indice;
 
 -(void) tableView:(UITableView *) tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSMutableArray *dato = datos[indexPath.row];
-    
-    
-    idSelect = [dato objectAtIndex:0];
-    idTemp = [dato objectAtIndex:0];
-    NSLog(@"idTemp");
-    
-   //[self performSegueWithIdentifier:@"Agregar" sender:idTemp];
+    NSLog(@"Cell seleccionado");
 }
 
 
--(void) listartareaParse{
+-(void) retrieveFromParse{
     PFQuery *query =[PFQuery queryWithClassName:@"tarea"];
     //[query unpinInBackground];
     

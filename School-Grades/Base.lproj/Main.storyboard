@@ -619,7 +619,6 @@
                     </view>
                     <connections>
                         <outlet property="tableView" destination="BE1-Bx-yhd" id="ujN-Bh-Px6"/>
-                        <outlet property="txttable" destination="BE1-Bx-yhd" id="gQO-VW-yli"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LYc-UY-V6C" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -712,6 +711,6 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="Di1-zW-SuD"/>
-        <segue reference="vUl-es-h5k"/>
+        <segue reference="4tF-BO-O2N"/>
     </inferredMetricsTieBreakers>
 </document>
