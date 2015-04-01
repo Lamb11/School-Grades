@@ -68,6 +68,7 @@ int indice;
     listarTarea *cell = [self.tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     PFObject *tempObject = [arraySubjects objectAtIndex:indexPath.row];
     cell.lblnombret.text = [tempObject objectForKey:@"nombre"];
+    cell.materiat.text = [tempObject objectForKey:@"nmateria"];
     return cell;
 }
 
