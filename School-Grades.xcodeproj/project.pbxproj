@@ -37,10 +37,14 @@
 		D377F6A21AC8D7CD003A1909 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D377F69D1AC8D7CD003A1909 /* ParseCrashReporting.framework */; };
 		D377F6A31AC8D7CD003A1909 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D377F69E1AC8D7CD003A1909 /* ParseFacebookUtils.framework */; };
 		D377F6A41AC8D7CD003A1909 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D377F69F1AC8D7CD003A1909 /* ParseUI.framework */; };
+		D377F6A71AC91FC9003A1909 /* AgregarCalificaciones.m in Sources */ = {isa = PBXBuildFile; fileRef = D377F6A61AC91FC9003A1909 /* AgregarCalificaciones.m */; };
 		D37D9B431AB92DC800C6A400 /* Izq.png in Resources */ = {isa = PBXBuildFile; fileRef = D37D9B421AB92DC800C6A400 /* Izq.png */; };
 		D37D9B461AB9317200C6A400 /* Alumno.m in Sources */ = {isa = PBXBuildFile; fileRef = D37D9B451AB9317200C6A400 /* Alumno.m */; };
 		D3CD6ECF1AC51DD4005A0809 /* Materia.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CD6ECE1AC51DD4005A0809 /* Materia.m */; };
 		D3CE2E531AC133490039D221 /* Tarea.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CE2E521AC133490039D221 /* Tarea.m */; };
+		D3D269351AC9F2F100BC3C3D /* listarTarea.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D269341AC9F2F100BC3C3D /* listarTarea.m */; };
+		D3D269381AC9F32800BC3C3D /* VerTarea.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D269371AC9F32800BC3C3D /* VerTarea.m */; };
+		D3D2693B1AC9FE0C00BC3C3D /* lisCali.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D2693A1AC9FE0C00BC3C3D /* lisCali.m */; };
 		D3E285BE1AB0874400C254E7 /* cellOaxaca.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E285BD1AB0874400C254E7 /* cellOaxaca.m */; };
 		D3E285C01AB08BDD00C254E7 /* notas_512.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E285BF1AB08BDD00C254E7 /* notas_512.png */; };
 /* End PBXBuildFile section */
@@ -94,6 +98,8 @@
 		D377F69D1AC8D7CD003A1909 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
 		D377F69E1AC8D7CD003A1909 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
 		D377F69F1AC8D7CD003A1909 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		D377F6A51AC91FC9003A1909 /* AgregarCalificaciones.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgregarCalificaciones.h; sourceTree = "<group>"; };
+		D377F6A61AC91FC9003A1909 /* AgregarCalificaciones.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgregarCalificaciones.m; sourceTree = "<group>"; };
 		D37D9B421AB92DC800C6A400 /* Izq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Izq.png; sourceTree = "<group>"; };
 		D37D9B441AB9317200C6A400 /* Alumno.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alumno.h; sourceTree = "<group>"; };
 		D37D9B451AB9317200C6A400 /* Alumno.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alumno.m; sourceTree = "<group>"; };
@@ -101,6 +107,12 @@
 		D3CD6ECE1AC51DD4005A0809 /* Materia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Materia.m; sourceTree = "<group>"; };
 		D3CE2E511AC133490039D221 /* Tarea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tarea.h; sourceTree = "<group>"; };
 		D3CE2E521AC133490039D221 /* Tarea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tarea.m; sourceTree = "<group>"; };
+		D3D269331AC9F2F100BC3C3D /* listarTarea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = listarTarea.h; sourceTree = "<group>"; };
+		D3D269341AC9F2F100BC3C3D /* listarTarea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = listarTarea.m; sourceTree = "<group>"; };
+		D3D269361AC9F32800BC3C3D /* VerTarea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerTarea.h; sourceTree = "<group>"; };
+		D3D269371AC9F32800BC3C3D /* VerTarea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerTarea.m; sourceTree = "<group>"; };
+		D3D269391AC9FE0C00BC3C3D /* lisCali.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lisCali.h; sourceTree = "<group>"; };
+		D3D2693A1AC9FE0C00BC3C3D /* lisCali.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lisCali.m; sourceTree = "<group>"; };
 		D3E285BC1AB0874400C254E7 /* cellOaxaca.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellOaxaca.h; sourceTree = "<group>"; };
 		D3E285BD1AB0874400C254E7 /* cellOaxaca.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellOaxaca.m; sourceTree = "<group>"; };
 		D3E285BF1AB08BDD00C254E7 /* notas_512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notas_512.png; sourceTree = "<group>"; };
@@ -193,6 +205,10 @@
 				D3CD6ECE1AC51DD4005A0809 /* Materia.m */,
 				D377F6931AC8CF14003A1909 /* Calificaciones.h */,
 				D377F6941AC8CF14003A1909 /* Calificaciones.m */,
+				D377F6A51AC91FC9003A1909 /* AgregarCalificaciones.h */,
+				D377F6A61AC91FC9003A1909 /* AgregarCalificaciones.m */,
+				D3D269361AC9F32800BC3C3D /* VerTarea.h */,
+				D3D269371AC9F32800BC3C3D /* VerTarea.m */,
 				D36640021AAFBFD100EE19EC /* Main.storyboard */,
 				D36640051AAFBFD100EE19EC /* Images.xcassets */,
 				D36640071AAFBFD100EE19EC /* LaunchScreen.xib */,
@@ -265,6 +281,10 @@
 			children = (
 				D3E285BC1AB0874400C254E7 /* cellOaxaca.h */,
 				D3E285BD1AB0874400C254E7 /* cellOaxaca.m */,
+				D3D269331AC9F2F100BC3C3D /* listarTarea.h */,
+				D3D269341AC9F2F100BC3C3D /* listarTarea.m */,
+				D3D269391AC9FE0C00BC3C3D /* lisCali.h */,
+				D3D2693A1AC9FE0C00BC3C3D /* lisCali.m */,
 			);
 			name = Customized;
 			sourceTree = "<group>";
@@ -378,11 +398,15 @@
 				D36640011AAFBFD100EE19EC /* ViewController.m in Sources */,
 				D3663FFE1AAFBFD100EE19EC /* AppDelegate.m in Sources */,
 				D377F6951AC8CF14003A1909 /* Calificaciones.m in Sources */,
+				D3D2693B1AC9FE0C00BC3C3D /* lisCali.m in Sources */,
 				D3CD6ECF1AC51DD4005A0809 /* Materia.m in Sources */,
 				D377F6991AC8D154003A1909 /* SWRevealViewController.m in Sources */,
+				D377F6A71AC91FC9003A1909 /* AgregarCalificaciones.m in Sources */,
 				D3663FFB1AAFBFD100EE19EC /* main.m in Sources */,
 				D3CE2E531AC133490039D221 /* Tarea.m in Sources */,
+				D3D269351AC9F2F100BC3C3D /* listarTarea.m in Sources */,
 				D37D9B461AB9317200C6A400 /* Alumno.m in Sources */,
+				D3D269381AC9F32800BC3C3D /* VerTarea.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,30 +1,29 @@
 //
-//  Calificaciones.m
+//  VerTarea.m
 //  School-Grades
 //
-//  Created by Alberto Cordero Arellanes on 29/03/15.
+//  Created by Alberto Cordero Arellanes on 30/03/15.
 //  Copyright (c) 2015 AlbertoCorderoArellanes. All rights reserved.
 //
 
-#import "Calificaciones.h"
-#import "cellOaxaca.h"
-
+#import "VerTarea.h"
+#import "listarTarea.h"
 NSMutableArray *datos;
 NSString *idTemp;
 NSString *idSelect;
 int indice;
 
-@interface Calificaciones ()
+@interface VerTarea ()
 
 @end
 
-@implementation Calificaciones
+@implementation VerTarea
 @synthesize tableView;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [self performSelector:@selector(listarconParse)];
+    [self performSelector:@selector(listartareaParse)];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -33,14 +32,14 @@ int indice;
 }
 
 /*
- #pragma mark - Navigation
- 
- // In a storyboard-based application, you will often want to do a little preparation before navigation
- - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
- // Get the new view controller using [segue destinationViewController].
- // Pass the selected object to the new view controller.
- }
- */
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
 
 /**********************************************************************************************
  Table Functions
@@ -65,10 +64,10 @@ int indice;
 //-------------------------------------------------------------------------------
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    static NSString *CellIdentifier = @"cellOaxaca";
-    cellOaxaca *cell = [self.tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    static NSString *CellIdentifier = @"listarTarea";
+    listarTarea *cell = [self.tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     PFObject *tempObject = [arraySubjects objectAtIndex:indexPath.row];
-    cell.lblNombre.text = [tempObject objectForKey:@"nombre"];
+    cell.lblnombret.text = [tempObject objectForKey:@"nombre"];
     return cell;
 }
 
@@ -76,18 +75,18 @@ int indice;
 -(void) tableView:(UITableView *) tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     NSMutableArray *dato = datos[indexPath.row];
-   
+    
     
     idSelect = [dato objectAtIndex:0];
     idTemp = [dato objectAtIndex:0];
     NSLog(@"idTemp");
-
-    [self performSegueWithIdentifier:@"Agregar" sender:idTemp];
+    
+   //[self performSegueWithIdentifier:@"Agregar" sender:idTemp];
 }
 
 
--(void) listarconParse{
-    PFQuery *query =[PFQuery queryWithClassName:@"alumno"];
+-(void) listartareaParse{
+    PFQuery *query =[PFQuery queryWithClassName:@"tarea"];
     //[query unpinInBackground];
     
     [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
@@ -101,6 +100,7 @@ int indice;
     
     
 }
+
 
 
 @end
