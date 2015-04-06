@@ -1,29 +1,32 @@
 //
-//  VerTarea.m
+//  VerCalificaciones.m
 //  School-Grades
 //
-//  Created by Alberto Cordero Arellanes on 30/03/15.
+//  Created by Alberto Cordero Arellanes on 01/04/15.
 //  Copyright (c) 2015 AlbertoCorderoArellanes. All rights reserved.
 //
 
-#import "VerTarea.h"
-#import "listarTarea.h"
+#import "VerCalificaciones.h"
+#import "lisCali.h"
+
 NSMutableArray *datos;
 NSString *idTemp;
 NSString *idSelect;
 int indice;
 
-@interface VerTarea ()
+@interface VerCalificaciones ()
 
 @end
 
-@implementation VerTarea
+
+
+@implementation VerCalificaciones
 @synthesize tableView;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [self performSelector:@selector(retrieveFromParse)];
+        [self performSelector:@selector(listarconParsee)];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -64,11 +67,12 @@ int indice;
 //-------------------------------------------------------------------------------
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    static NSString *CellIdentifier = @"listarTarea";
-    listarTarea *cell = [self.tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    static NSString *CellIdentifier = @"lisCali";
+    lisCali *cell = [self.tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     PFObject *tempObject = [arraySubjects objectAtIndex:indexPath.row];
-    cell.lblnombret.text = [tempObject objectForKey:@"nombre"];
-    cell.materiat.text = [tempObject objectForKey:@"nmateria"];
+    cell.lblmaestro.text = [tempObject objectForKey:@"nombrep"];
+    cell.lblmateria.text = [tempObject objectForKey:@"materia"];
+    cell.calificacion.text = [tempObject objectForKey:@"calificacion"];
     return cell;
 }
 
@@ -78,14 +82,16 @@ int indice;
     NSMutableArray *dato = datos[indexPath.row];
     
     
-    idSelect = [dato objectAtIndex:0];
-    idTemp = [dato objectAtIndex:0];
-    NSLog(@"Cell seleccionado");
+   // idSelect = [dato objectAtIndex:0];
+   // idTemp = [dato objectAtIndex:0];
+    NSLog(@"hola");
+    
+    //[self performSegueWithIdentifier:@"Agregar" sender:idTemp];
 }
 
 
--(void) retrieveFromParse{
-    PFQuery *query =[PFQuery queryWithClassName:@"tarea"];
+-(void) listarconParsee{
+    PFQuery *query =[PFQuery queryWithClassName:@"calificaciones"];
     //[query unpinInBackground];
     
     [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
@@ -99,7 +105,6 @@ int indice;
     
     
 }
-
 
 
 @end

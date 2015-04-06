@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface lisCali : UITableViewCell
+@property (strong, nonatomic) IBOutlet UILabel *lblmaestro;
+@property (strong, nonatomic) IBOutlet UILabel *lblmateria;
+@property (strong, nonatomic) IBOutlet UILabel *calificacion;
 
 @end
